@@ -29,12 +29,17 @@ pip install -r requirements.txt
 python data_gathering.py
 ```
 
-2. Train the models:
+2. Preprocess the historical data:
+```bash
+python data_preprocessing.py
+```
+
+3. Train the models:
 ```bash
 python model_training.py
 ```
 
-3. Make predictions:
+4. Make predictions:
 ```bash
 python predict.py
 ```
